@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -o libsqlite.a  CMakeFiles/sqlite.dir/sqlite/sqlite3.c.o 

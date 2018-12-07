@@ -9,8 +9,8 @@
 *.pch
 
 # Libraries
-*.lib
-*.a
+#*.lib
+#*.a
 *.la
 *.lo
 
@@ -49,7 +49,7 @@ tags
 *.bak
 .DS_Store
 
-cmake-*
+#xscmake-*
 
 ThirdParty/openssl/install
 ThirdParty/openssl/openssl-1.0.2o.tar.gz

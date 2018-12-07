@@ -1,0 +1,39 @@
+The target system is: Darwin - 12.1 - 
+The host system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: -miphoneos-version-min=10.0;-fobjc-abi-version=2;-fobjc-arc;
+Id flags:  
+
+The output was:
+0
+ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/System/Library/Frameworks//Foundation.framework/Foundation) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libSystem.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libobjc.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/abilican/Documents/projects/perso/elastos/Elastos.ELA.SPV.Cpp/cmake-build-ios/CMakeFiles/3.10.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: -miphoneos-version-min=10.0;-fvisibility=hidden;-fvisibility-inlines-hidden;-fobjc-abi-version=2;-fobjc-arc;
+Id flags:  
+
+The output was:
+0
+ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/System/Library/Frameworks//Foundation.framework/Foundation) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libobjc.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libSystem.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libc++.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/abilican/Documents/projects/perso/elastos/Elastos.ELA.SPV.Cpp/cmake-build-ios/CMakeFiles/3.10.1/CompilerIdCXX/a.out"
+

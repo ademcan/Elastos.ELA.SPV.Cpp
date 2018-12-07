@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+734086c749e176509d5b31c483173f3e ../ThirdParty/openssl/OpenSSL-for-iPhone/lib/libssl.a
+22f3cc109ab1ebfc3040c1d44616102b CMakeFiles/spvsdk_combin_static
+834a88640870e2652b132bac34699008 ThirdParty/CMakeFiles/build_boost
+834a88640870e2652b132bac34699008 ThirdParty/CMakeFiles/build_openssl
+f975c9bea694a1bef23ce4174b7dbbfe ThirdParty/boost/build/ios/prefix/lib/libboost_filesystem.a
+4d20ae1be55d22967cd558058dcdff93 lib/libspvsdk.a
