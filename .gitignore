@@ -44,7 +44,7 @@ test
 .*.swo
 cli-spv
 tags
-*.json
+#*.json
 .*.py
 *.bak
 .DS_Store
