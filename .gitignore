@@ -10,7 +10,7 @@
 
 # Libraries
 *.lib
-*.a
+# *.a
 *.la
 *.lo
 
@@ -48,7 +48,7 @@ tags
 *.bak
 .DS_Store
 
-cmake-*
+# cmake-*
 
 ThirdParty/openssl/install
 ThirdParty/openssl/openssl-1.0.2o.tar.gz

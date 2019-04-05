@@ -1,0 +1,16 @@
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/./Data/mnemonic_japanese.txt
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/./Data/mnemonic_italian.txt
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/./Data/CoinConfig.json
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/./Data/mnemonic_spanish.txt
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/./Data/mnemonic_chinese.txt
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/./Data/mnemonic_french.txt
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/IIdAgent.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/IIdChainSubWallet.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/IMainchainSubWallet.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/IMasterWallet.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/IMasterWalletManager.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/ISidechainSubWallet.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/ISubWallet.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/ISubWalletCallback.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/MasterWalletManager.h
+/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-ios/include/nlohmann/json.hpp

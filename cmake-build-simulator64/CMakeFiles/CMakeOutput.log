@@ -1,0 +1,315 @@
+The target system is: Darwin - 12.1 - 
+The host system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: -miphonesimulator-version-min=10.0;-fobjc-abi-version=2;-fobjc-arc;
+Id flags:  
+
+The output was:
+0
+ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
+ld: warning: ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libobjc.dylib) built for macOS. Note: This will be an error in the future.URGENT: building for iOS Simulator simulator, but linking against dylib (/System/Library/Frameworks//Foundation.framework/Foundation) built for macOS. Note: This will be an error in the future.
+
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libSystem.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/3.10.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: -miphonesimulator-version-min=10.0;-fvisibility=hidden;-fvisibility-inlines-hidden;-fobjc-abi-version=2;-fobjc-arc;
+Id flags:  
+
+The output was:
+0
+ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/System/Library/Frameworks//Foundation.framework/Foundation) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libobjc.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libc++.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: URGENT: building for iOS Simulator simulator, but linking against dylib (/usr/lib/libSystem.dylib) built for macOS. Note: This will be an error in the future.
+ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/3.10.1/CompilerIdCXX/a.out"
+
+Performing C++ SOURCE FILE Test FRUIT_TRIVIAL_SOURCE_COMPILES succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_1ecc9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ecc9.dir/build.make CMakeFiles/cmTC_1ecc9.dir/build
+Building CXX object CMakeFiles/cmTC_1ecc9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_TRIVIAL_SOURCE_COMPILES -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_1ecc9.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1ecc9
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ecc9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_TRIVIAL_SOURCE_COMPILES -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ecc9.dir/src.cxx.o  -o cmTC_1ecc9 
+
+Source file was:
+
+int main() {}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_HAS_TRIVIAL_COPY succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_9c272/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9c272.dir/build.make CMakeFiles/cmTC_9c272.dir/build
+Building CXX object CMakeFiles/cmTC_9c272.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_HAS_TRIVIAL_COPY -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_9c272.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9c272
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c272.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_HAS_TRIVIAL_COPY -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9c272.dir/src.cxx.o  -o cmTC_9c272 
+
+Source file was:
+
+int main() {
+  bool b = __has_trivial_copy(int);
+  (void) b;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_6acf6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6acf6.dir/build.make CMakeFiles/cmTC_6acf6.dir/build
+Building CXX object CMakeFiles/cmTC_6acf6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_IS_TRIVIALLY_COPYABLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_6acf6.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6acf6
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6acf6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_IS_TRIVIALLY_COPYABLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6acf6.dir/src.cxx.o  -o cmTC_6acf6 
+
+Source file was:
+
+int main() {
+  bool b = __is_trivially_copyable(int);
+  (void) b;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_MAX_ALIGN_T succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_b1731/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b1731.dir/build.make CMakeFiles/cmTC_b1731.dir/build
+Building CXX object CMakeFiles/cmTC_b1731.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_MAX_ALIGN_T -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_b1731.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1731
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1731.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_MAX_ALIGN_T -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b1731.dir/src.cxx.o  -o cmTC_b1731 
+
+Source file was:
+
+#include <cstddef>
+using X = max_align_t;
+int main() {
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_e1d11/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e1d11.dir/build.make CMakeFiles/cmTC_e1d11.dir/build
+Building CXX object CMakeFiles/cmTC_e1d11.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_STD_IS_TRIVIALLY_COPYABLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_e1d11.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1d11
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d11.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_STD_IS_TRIVIALLY_COPYABLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e1d11.dir/src.cxx.o  -o cmTC_e1d11 
+
+Source file was:
+
+#include <type_traits>
+int main() {
+  bool b = std::is_trivially_copyable<int>::value;
+  (void) b;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_STD_IS_TRIVIALLY_COPY_CONSTRUCTIBLE succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_4b766/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b766.dir/build.make CMakeFiles/cmTC_4b766.dir/build
+Building CXX object CMakeFiles/cmTC_4b766.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_STD_IS_TRIVIALLY_COPY_CONSTRUCTIBLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_4b766.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b766
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b766.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_STD_IS_TRIVIALLY_COPY_CONSTRUCTIBLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4b766.dir/src.cxx.o  -o cmTC_4b766 
+
+Source file was:
+
+#include <type_traits>
+int main() {
+  bool b = std::is_trivially_copy_constructible<int>::value;
+  (void) b;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_STD_MAX_ALIGN_T succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_7b2da/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b2da.dir/build.make CMakeFiles/cmTC_7b2da.dir/build
+Building CXX object CMakeFiles/cmTC_7b2da.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_STD_MAX_ALIGN_T -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_7b2da.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7b2da
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b2da.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_STD_MAX_ALIGN_T -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b2da.dir/src.cxx.o  -o cmTC_7b2da 
+
+Source file was:
+
+#include <cstddef>
+using X = std::max_align_t;
+int main() {
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_TYPEID succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_065d7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_065d7.dir/build.make CMakeFiles/cmTC_065d7.dir/build
+Building CXX object CMakeFiles/cmTC_065d7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_TYPEID -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_065d7.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_065d7
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_065d7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_TYPEID -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_065d7.dir/src.cxx.o  -o cmTC_065d7 
+
+Source file was:
+
+#include <typeinfo>
+int main() {
+  (void) typeid(int);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_CONSTEXPR_TYPEID succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_71a36/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_71a36.dir/build.make CMakeFiles/cmTC_71a36.dir/build
+Building CXX object CMakeFiles/cmTC_71a36.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_CONSTEXPR_TYPEID -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_71a36.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_71a36
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a36.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_CONSTEXPR_TYPEID -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71a36.dir/src.cxx.o  -o cmTC_71a36 
+
+Source file was:
+
+#include <typeinfo>
+int main() {
+  constexpr static const std::type_info& x = typeid(int);
+  (void) x;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_CXA_DEMANGLE succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_65059/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_65059.dir/build.make CMakeFiles/cmTC_65059.dir/build
+Building CXX object CMakeFiles/cmTC_65059.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_CXA_DEMANGLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_65059.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65059
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65059.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_CXA_DEMANGLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_65059.dir/src.cxx.o  -o cmTC_65059 
+
+Source file was:
+
+#include <cxxabi.h>
+int main() {
+  auto* p = abi::__cxa_demangle;
+  (void) p;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_ALWAYS_INLINE_ATTRIBUTE succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_686a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_686a6.dir/build.make CMakeFiles/cmTC_686a6.dir/build
+Building CXX object CMakeFiles/cmTC_686a6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_ALWAYS_INLINE_ATTRIBUTE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_686a6.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_686a6
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_686a6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_ALWAYS_INLINE_ATTRIBUTE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_686a6.dir/src.cxx.o  -o cmTC_686a6 
+
+Source file was:
+
+__attribute__((always_inline))
+void f() {
+}
+
+int main() {
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_ATTRIBUTE_DEPRECATED succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_120f6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_120f6.dir/build.make CMakeFiles/cmTC_120f6.dir/build
+Building CXX object CMakeFiles/cmTC_120f6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_ATTRIBUTE_DEPRECATED -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_120f6.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_120f6
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_120f6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_ATTRIBUTE_DEPRECATED -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_120f6.dir/src.cxx.o  -o cmTC_120f6 
+
+Source file was:
+
+[[deprecated]] void f();
+
+int main() {
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_GCC_ATTRIBUTE_DEPRECATED succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_2ac94/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ac94.dir/build.make CMakeFiles/cmTC_2ac94.dir/build
+Building CXX object CMakeFiles/cmTC_2ac94.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_GCC_ATTRIBUTE_DEPRECATED -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_2ac94.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ac94
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ac94.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_GCC_ATTRIBUTE_DEPRECATED -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ac94.dir/src.cxx.o  -o cmTC_2ac94 
+
+Source file was:
+
+void f() __attribute__((deprecated));
+
+int main() {
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test FRUIT_HAS_BUILTIN_UNREACHABLE succeeded with the following output:
+Change Dir: /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_43a80/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_43a80.dir/build.make CMakeFiles/cmTC_43a80.dir/build
+Building CXX object CMakeFiles/cmTC_43a80.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_BUILTIN_UNREACHABLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk   -o CMakeFiles/cmTC_43a80.dir/src.cxx.o -c /Users/abilican/Documents/projects/perso/elastos/react-native-elastos-wallet-core/Elastos.ELA.SPV.Cpp/cmake-build-simulator64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_43a80
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a80.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DFRUIT_HAS_BUILTIN_UNREACHABLE -miphonesimulator-version-min=10.0 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -O3 -DNDEBUG  -std=c++11 -W -Wall -Wno-unknown-warning-option -Wno-missing-braces -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43a80.dir/src.cxx.o  -o cmTC_43a80 
+
+Source file was:
+
+int f() {
+  static int x = 1;
+  if (x == 1) {
+    return 0;
+  } else {
+    __builtin_unreachable();
+    // Note: the lack of return here is intentional
+  }
+}
+
+int main() {
+  return f();
+}
+
